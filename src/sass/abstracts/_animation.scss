@@ -1,0 +1,13 @@
+@use 'color' as *;
+
+.nav{
+    &__btn, &__link{
+        transition: all .3s;
+        &:hover{
+            color: $color-primary-dark-hover;
+            background-color: $light-gray-d;
+            font-weight: bold;
+        }
+    }
+    
+}

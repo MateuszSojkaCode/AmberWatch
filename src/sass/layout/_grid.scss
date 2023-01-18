@@ -1,0 +1,29 @@
+.grid {
+	&__mobile {
+		display: grid;
+        grid-template-columns: repeat(2, 1fr) 3fr repeat(2, 1fr);
+	}
+
+	&__desktop{
+		display: grid;
+		grid-template-columns: repeat(21, 1fr);
+	}
+	&__newArrivals{
+		grid-column: 1/4;
+	}
+	&__collection{
+		grid-column: 4/7;
+	}
+	&__title{
+		grid-column: 7/16;
+	}
+	&__location{
+		grid-column: 16/18;
+	}
+	&__person{
+		grid-column: 18/20;
+	}
+	&__shopingBag{
+		grid-column: 20/22;
+	}
+}

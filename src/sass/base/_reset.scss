@@ -1,3 +1,5 @@
+@use '../abstracts/' as *;
+
 *,
 *::before,
 *::after {
@@ -11,9 +13,10 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	font-size: 1.6rem;
+	font-size: $font-size-16;
 	font-weight: 400;
 	line-height: 1.6;
+	font-family: sans-serif;
 }
 a {
 	text-decoration: none;
