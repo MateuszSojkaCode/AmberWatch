@@ -1,43 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luxury Watch</title>
 
-    <link rel="stylesheet" href="/dist/css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/dist/css/style.min.css" />
 </head>
+
 <body>
     <nav class="nav grid">
         <div class="nav__mobile grid__mobile">
-            <button class="nav__btn nav__btn--menu"><ion-icon src="./src/img/icons/reorder-three-outline.svg"></ion-icon></button>
-            <button class="nav__btn nav__btn--search"><ion-icon src="./src/img/icons/search-outline.svg"></ion-icon></button>
+            <button class="nav__btn nav__btn--menu btn-animation">
+                <ion-icon src="./src/img/icons/reorder-three-outline.svg"></ion-icon>
+            </button>
+            <button class="nav__btn nav__btn--search btn-animation">
+                <ion-icon src="./src/img/icons/search-outline.svg"></ion-icon>
+            </button>
             <h1 class="nav__title">Amber Watch</h1>
-            <button class="nav__btn nav__btn--location"><ion-icon src="./src/img/icons/location-outline.svg"></ion-icon></button>
-            <button class="nav__btn nav__btn--shopingBag"><ion-icon src="./src/img/icons/bag-handle-outline.svg"></ion-icon></button>
+            <button class="nav__btn nav__btn--location btn-animation">
+                <ion-icon src="./src/img/icons/location-outline.svg"></ion-icon>
+            </button>
+            <button class="nav__btn nav__btn--shopingBag btn-animation">
+                <ion-icon src="./src/img/icons/bag-handle-outline.svg"></ion-icon>
+            </button>
         </div>
         <div class="nav__desktop grid__desktop">
-            <a href="#" class="nav__link nav__newArrivals grid__newArrivals">New Arrivals</a>
-            <a href="#" class="nav__link nav__collection grid__collection">Collection</a>
+            <a href="#" class="nav__link nav__newArrivals grid__newArrivals btn-animation">New Arrivals</a>
+            <a href="#" class="nav__link nav__collection grid__collection btn-animation">Collection</a>
             <h1 class="nav__title grid__title">Amber Watch</h1>
-            <button class="nav__btn nav__btn--location grid__location"><ion-icon src="./src/img/icons/location-outline.svg"></ion-icon></button>
-            <button class="nav__btn nav__btn--person grid__person"><ion-icon src="./src/img/icons/person-outline.svg"></ion-icon></button>
-            <button class="nav__btn nav__btn--shopingBag grid__shopingBag"><ion-icon src="./src/img/icons/bag-handle-outline.svg"></ion-icon></button>
+            <button class="nav__btn nav__btn--location grid__location btn-animation">
+                <ion-icon src="./src/img/icons/location-outline.svg"></ion-icon>
+            </button>
+            <button class="nav__btn nav__btn--person grid__person btn-animation">
+                <ion-icon src="./src/img/icons/person-outline.svg"></ion-icon>
+            </button>
+            <button class="nav__btn nav__btn--shopingBag grid__shopingBag btn-animation">
+                <ion-icon src="./src/img/icons/bag-handle-outline.svg"></ion-icon>
+            </button>
         </div>
-     </nav>
-
+    </nav>
 
     <header class="header">
-        <h1 class="header__heading">Luxury watches</h1>
-        <p class="header_paragrpah">for men & woman</p>
+        <div class="wrapper wrapper__1600">
+            <div class="header__text-box">
+                <h1 class="header__heading">Luxury watches</h1>
+                <p class="header__paragraph">for men & woman</p>
+                <p class="header__text">
+                    Discover the assortment of exquisite, high-precision
+                    timepieces.
+                </p>
+                <button class="header__btn button btn-animation">Check Collection</button>
+            </div>
+        </div>
         <div class="header__shadow"></div>
     </header>
-    
-    
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="./src/js/script.js"></script>
 </body>
+
 </html>

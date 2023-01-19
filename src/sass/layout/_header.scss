@@ -2,19 +2,40 @@
 
 .header {
     position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     flex-direction: column;
 	height: 60vh;
+    padding: 2rem;
     color: $color-primary;
-    text-transform: uppercase;
 	background-image: url(../../../src/img/header_small.jpg);
 	background-position: center;
 	background-size: cover;
+    text-transform: uppercase;
     z-index: 0;
+    &__text-box{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
     &__heading{
         font-weight: 100;
+        font-family: $title-font;
+        letter-spacing: 1px;
+    }
+    &__paragraph{
+        margin-bottom: 1rem;
+        font-size: $font-size-14;
+    }
+    &__text{
+        font-weight: 400;
+        color: $light-gray-d;
+        font-size: $font-size-12;
+    }
+    &__btn{
+        margin-top: 1rem;
+        color: $dark-gray-1;        
+        background-color: $color-primary-dark;
     }
     &__shadow{
         position: absolute;
@@ -31,5 +52,36 @@
     .header{
         height: 80vh;
         background-image: url(../../../src/img/header_big.jpg);
+        justify-content: center;
+        &__text-box{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            padding-inline: 4rem;
+        }
+        &__heading{
+            font-size: $font-size-60;
+            margin-bottom: -1rem;
+        }
+        &__paragraph{
+            font-size: $font-size-20;
+        }
+        &__text{
+            margin: 2rem 0;
+            width: 30%;
+            text-align: left;
+            font-size: $font-size-16;
+        }
+        &__btn{
+            margin-top: 2rem;
+            font-size: $font-size-16;
+        }
+    }
+}
+@media(min-width: 1700px){
+    .header{
+        &__text-box{
+            padding-inline: 0;
+        }
     }
 }

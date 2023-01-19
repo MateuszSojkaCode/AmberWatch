@@ -1,5 +1,14 @@
-// .nav{
-//     &__btn{
+@use "../abstracts/" as *;
 
-//     }
-// }
+.button {
+	padding: 1rem 2rem;
+	font-weight: 400;
+	font-size: $font-size-14;
+	text-transform: uppercase;
+}
+
+@media(min-width: 768px){
+    .button{
+        padding: 1.5rem 3rem;
+    }
+}
