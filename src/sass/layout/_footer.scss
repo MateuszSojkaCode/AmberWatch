@@ -1,0 +1,78 @@
+@use '../abstracts' as *;
+
+.footer{
+    padding-inline: 3rem;
+    background-color: $dark-gray-1;
+    color: $light-gray-d;
+    &__info-heading{
+        color: $color-primary;
+        font-family: $title-font;
+        font-size: $font-size-20;
+        font-weight: 100;
+    }
+    &__text{
+        font-size: $font-size-14;
+    }
+    &__icon{
+        color: $color-primary;
+        margin-right: .5rem;
+    }
+    &__heading{
+        font-size: $font-size-20;
+    }
+    &__list-item{
+        font-size: $font-size-14;
+    }
+    &__newsletter-text{
+        font-size: $font-size-14;
+        margin-bottom: .5rem;
+    }
+    &__box{
+        display: flex;
+        justify-content: center;
+    }
+    &__input{
+        padding: 1rem 2rem;
+    }
+    &__arrow-icon{
+        height: 39px;
+        width: 39px;
+        font-size: $font-size-20;
+        background-color: $color-primary;
+    }
+    &__copyright{
+        font-size: $font-size-14;
+        margin-bottom: 2rem;
+    }
+    &__heading, &__list-item, &__newsletter, &__copyright{
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px){
+    .footer{
+        &__info-heading{
+            font-size: $font-size-32;
+        }
+        &__text, &__list-item, &__newsletter-text{
+            font-size: $font-size-16;
+        }
+        &__heading{
+            margin-bottom: 2rem;
+        }
+        &__list-item{
+            padding-bottom: 1rem;
+        }
+        &__text{
+            padding-bottom: 0.5rem;
+        }
+        &__newsletter{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__copyright{
+            padding: 1rem;
+        }
+    }
+}
