@@ -105,6 +105,24 @@
 	}
 }
 
+//grid dial
+
+.grid__dial{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	row-gap: 4rem;
+	@media(min-width: 992px){
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
+	@media(min-width: 1200px){
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: 1fr;
+	}
+}
+
+
 // grid footer
 
 .grid__footer{
