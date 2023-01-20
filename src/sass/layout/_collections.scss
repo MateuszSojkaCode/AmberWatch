@@ -1,0 +1,87 @@
+@use '../abstracts/' as *;
+
+.collection{
+    &__img-box{
+        height: 80vh;
+    }
+    &__card{
+        position: relative;        
+        overflow: hidden;
+        
+    }
+    &__img{
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: transform .3s;
+        filter: brightness(.7);
+        &:hover{
+            transform: scale(1.1);
+        }
+        &--one{
+           background-image: url(../../../src/img/collection_men.jpg);
+       }
+        &--two{
+           background-image: url(../../../src/img/collection_gold.jpg);
+       }
+        &--three{
+           background-image: url(../../../src/img/collection_lady.jpg);
+       }
+        &--four{
+           background-image: url(../../../src/img/collection_sport.jpg);
+       }
+        &--five{
+           background-image: url(../../../src/img/collection_steel.jpg);
+       }
+    }
+    &__title{
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+    }
+
+}
+.lookbook{
+    // overflow: hidden;
+    &__img{
+        background-image: url(../../../src/img/lookbook_small.jpg);
+        // max-height: 40vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    &__heading{
+        padding-inline: 6rem;
+        margin-top: 2rem;
+    }
+    &__text{
+        padding-inline: 3rem;
+        margin-bottom: 2rem;
+    }
+    &__content{
+        height: 100%;
+        transform: scale(1.05);
+       
+        width: 100%;
+    }
+    @media(min-width: 576px){
+        &__text{
+            padding-inline: 4rem;
+            margin-bottom: 4rem;
+        }
+        &__info{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        @media(min-width: 992px){
+            &__text{
+                text-align: left;
+                padding-inline: 8rem;             
+            }
+        }
+    }
+}
