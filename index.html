@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luxury Watch</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display+SC&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/dist/css/style.min.css" />
 </head>
@@ -65,6 +65,41 @@
     </header>
 
     <main>
+        <section class="arrivals section-padding-big">
+            <h2 class="section-heading">New Arrivals</h2>
+            <div class="wrapper wrapper__1300">
+                <div class="arrivals__box grid__arrivals">
+                    <div class="arrivals__card">
+                        <img src="./src/img/new_arrival_1.jpg" alt="" class="arrivals__img">
+                        <div class="arrivals__info-box">
+                            <p class="arrivals__name">Watch 1</p>
+                            <p class="arrivals__model">S712/1A-001</p>
+                            <p class="arrivals__type">Steel on leather strap</p>
+                        </div>
+                    </div>
+                    <div class="arrivals__card">
+                        <img src="./src/img/new_arrival_2.jpg" alt="" class="arrivals__img">
+                        <div class="arrivals__info-box">
+                            <p class="arrivals__name">Watch 2</p>
+                            <p class="arrivals__model">FB-01</p>
+                            <p class="arrivals__type">Stainless Steel</p>
+                        </div>
+                    </div>
+                    <div class="arrivals__card grid__arrivals--three">
+                        <img src="./src/img/new_arrival_3.jpg" alt="" class="arrivals__img">
+                        <div class="arrivals__info-box">
+                            <p class="arrivals__name">Watch 3</p>
+                            <p class="arrivals__model">T12/5C-01</p>
+                            <p class="arrivals__type">Stainless Steel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrivals__explore-box">
+                <a href="#" class="arrivals__explore btn-animation">Explore new arrivals</a>
+            </div>
+        </section>
+
         <section class="featured section-padding-small">
             <div class="wrapper wrapper__1300">
                 <div class="featured__box">
@@ -76,6 +111,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer class="footer section-padding-big">

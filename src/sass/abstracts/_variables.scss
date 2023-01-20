@@ -15,4 +15,20 @@ $font-size-72: 7.2rem;
 // font family
 
 $title-font: 'Playfair Display SC', serif;
+$main-font: 'Open Sans', sans-serif;
 
+
+// margin & padding
+
+.section-padding-small{
+    padding: 4rem 0;
+}
+.section-padding-big{
+    padding: 8rem 0;
+}
+.margin-bottom-1{
+    margin-bottom: .5rem;
+    @media(min-width: 768px){
+        margin-bottom: 4rem;
+    }
+}
