@@ -1,0 +1,28 @@
+@use "./color" as *;
+@use "./variables" as *;
+
+.heading-primary {
+	font-weight: 100;
+	font-family: $title-font;
+	letter-spacing: 2px;
+}
+
+.section-heading {
+	text-align: center;
+	margin-bottom: 3rem;
+	color: $dark-gray-1;
+	letter-spacing: 2px;
+	&__uppercase {
+		text-transform: uppercase;
+	}
+}
+
+@media (min-width: 768px) {
+	.heading-primary {
+		font-size: $font-size-60;
+		margin-bottom: -1.5rem;
+	}
+	.section-heading {
+		font-size: $font-size-48;
+	}
+}

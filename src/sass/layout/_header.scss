@@ -18,17 +18,11 @@
         margin-bottom: 2rem;
         text-align: center;
     }
-    &__heading{
-        font-weight: 100;
-        font-family: $title-font;
-        letter-spacing: 1px;
-    }
     &__paragraph{
         margin-bottom: 1rem;
         font-size: $font-size-14;
     }
     &__text{
-        font-weight: 400;
         color: $light-gray-d;
         font-size: $font-size-12;
     }
@@ -58,17 +52,13 @@
             align-items: flex-start;
             flex-direction: column;
             padding-inline: 4rem;
-        }
-        &__heading{
-            font-size: $font-size-60;
-            margin-bottom: -1rem;
-        }
+        }     
         &__paragraph{
-            font-size: $font-size-20;
+            font-size: $font-size-22;
         }
         &__text{
             margin: 2rem 0;
-            width: 30%;
+            width: 30vw;
             text-align: left;
             font-size: $font-size-16;
         }

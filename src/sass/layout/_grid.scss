@@ -1,6 +1,7 @@
 // navigation grid
 
 .grid {
+
 	&__mobile {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr) 3fr repeat(2, 1fr);
@@ -195,15 +196,4 @@
 }
 
 
-//wrapper
 
-.wrapper {
-	width: 100%;
-	margin-inline: auto;
-	&__1600{
-		max-width: 1600px;
-	}
-	&__1300{
-		max-width: 1300px;
-	}
-}
