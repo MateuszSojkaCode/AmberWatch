@@ -1,67 +1,71 @@
-@use '../abstracts/' as *;
+@use "../abstracts/" as *;
 
-.nav{
-    position: fixed;
-    width: 100%;
-    opacity: .9;
-    z-index: 100;
-    &__mobile{
-        background-color: $dark-gray-1;
-
-    }
-    &__title{
-        padding: .5rem;
-        text-align: center;     
-        font-family: $title-font;
-    }
-    &__btn{
-        background: none;
-    }
-    &__title, &__btn{
-        color: $color-primary;
-        font-size: $font-size-20;
-        font-weight: 100;
-        letter-spacing: 1px;
-        border-bottom: .1px solid rgba(255, 255, 255, 0.274);
-        border-left: .1px solid rgba(255, 255, 255, 0.274) ;
-        &:first-child{
-            border-left: none;
-        }
-    } 
-    &__desktop{
-        visibility: hidden;
-    }
+.nav {
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+	z-index: 100;
+	&__mobile {
+		background-color: $dark-gray-1;
+	}
+	&__title {
+		padding: 0.5rem;
+		text-align: center;
+		font-family: $title-font;
+	}
+	&__btn {
+		background: none;
+	}
+	&__title,
+	&__btn {
+		color: $color-primary;
+		font-size: $font-size-20;
+		font-weight: 100;
+		letter-spacing: 1px;
+		border-bottom: 0.1px solid rgba(255, 255, 255, 0.274);
+		border-left: 0.1px solid rgba(255, 255, 255, 0.274);
+		&:first-child {
+			border-left: none;
+		}
+	}
+	&__desktop {
+		visibility: hidden;
+	}
 }
 
-@media(min-width: 768px){
-    .nav{
-        width: 100%;
-        &__mobile{
-            display: none;
+@media (min-width: 768px) {
+	.nav {
+		width: 100%;
+		&__mobile {
+			display: none;
+		}
+		&__desktop {
+			background-color: $dark-gray-1;
+			visibility: visible;
+		}
+		&__title {
+			font-size: $font-size-36;
+			padding: 1rem;
+		}
+		&__btn {
+			font-size: $font-size-24;
+		}
+		&__link {
+			font-size: $font-size-20;
+			font-weight: 100;
+		}
+        &__newArrivals{
+            text-align: center;
         }
-        &__desktop{
-            background-color: $dark-gray-1;
-            visibility: visible;
-        }
-        &__title{
-            font-size: $font-size-36;
-            padding: 1rem;
-        }
-        &__btn{
-            font-size: $font-size-24;
-        } &__link{
-            font-size: $font-size-20;
-            font-weight: 100;
-        }
-        &__collection{
-            border-left: .1px solid rgba(255, 255, 255, 0.274) ;
-        }
-        &__link{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: $color-primary;
-            border-bottom: .1px solid rgba(255, 255, 255, 0.274);            
-        }
-    }
+		&__collection {
+			border-left: 0.1px solid rgba(255, 255, 255, 0.274);
+		}
+		&__link {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: $color-primary;
+			border-bottom: 0.1px solid rgba(255, 255, 255, 0.274);
+		}
+	}
 }

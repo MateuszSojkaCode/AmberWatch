@@ -20,6 +20,15 @@ $main-font: 'Open Sans', sans-serif;
 
 // margin & padding
 
+.section-padding{
+    &__top{
+        padding-top: 4rem;
+        @media(min-width: 768px){
+            padding-top: 8rem;
+        }
+    }
+}
+
 .section-padding-small{
     padding: 4rem 0;
 }
@@ -27,7 +36,7 @@ $main-font: 'Open Sans', sans-serif;
     padding: 8rem 0;
 }
 .margin-bottom-1{
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     @media(min-width: 768px){
         margin-bottom: 4rem;
     }

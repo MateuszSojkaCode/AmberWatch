@@ -18,3 +18,22 @@
         height: 100%;
     }
 }
+
+.link-animation{
+    position: relative;
+    z-index: 1;
+    &::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $light-gray-b;
+        transform: scaleX(0) ;
+        transition: transform .5s;
+    }
+    &:hover::before{
+        transform: scaleX(1.2);
+    }
+}

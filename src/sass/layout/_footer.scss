@@ -22,6 +22,11 @@
     }
     &__list-item{
         font-size: $font-size-14;
+        padding: 0.5rem;
+    }
+    &__link{
+        // display: inline-block;
+        color: inherit;
     }
     &__newsletter-text{
         font-size: $font-size-14;
@@ -60,8 +65,8 @@
         &__heading{
             margin-bottom: 2rem;
         }
-        &__list-item{
-            padding-bottom: 1rem;
+        &__link{
+            padding-bottom: .5rem;
         }
         &__text{
             padding-bottom: 0.5rem;
@@ -72,7 +77,8 @@
             justify-content: center;
         }
         &__copyright{
-            padding: 1rem;
+            margin: 2rem 0;
+            padding-bottom: 1rem;
         }
     }
 }
