@@ -1,19 +1,19 @@
 @use "../abstracts" as *;
 
 .lookbook {
-	&__img-box {
-		display: none;
+	background-color: $light-gray-e;
+    &__img-box {
+        display: none;
 	}
 	&__info {
-		padding: 3rem;
+        padding: 3rem;
 	}
 }
 
 .bg-video {
-	overflow: hidden;
+    overflow: hidden;
 	&__content {
-		max-height: 20rem;
-        // height: 20rem;
+        max-height: 20rem;
         max-width: 300rem;
 		width: 100%;
 		margin-inline: auto;
@@ -21,13 +21,15 @@
 }
 
 @media (min-width: 992px) {
-	.lookbook {
-		height: 50vh;
+    .lookbook {
+		&__box{
+			height: 50vh;
+		}
         &__info{
             padding: 0 10rem;
         }
 		&__img-box {
-			width: 100%;
+            width: 100%;
 			display: block;
 		}
 		&__img {
@@ -36,8 +38,8 @@
 		}
 	}
 	.bg-video {
-		&__content {
-			transform: translateY(1rem) translateX(15rem);
+        &__content {
+            transform: translateY(1rem) translateX(15rem);
 		}
 	}
 }
