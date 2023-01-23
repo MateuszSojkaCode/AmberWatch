@@ -87,6 +87,30 @@
 	}
 }
 
+// grid lokbook
+
+.grid__lookbook{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(2, auto);
+	@media(min-width: 992px){
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		&-img{
+			grid-column: 1/8;
+			grid-row: 1/7;
+		}
+		&-info{
+			grid-column: 8/13;
+			grid-row: 1/4;
+		}
+		&-video{
+			grid-column: 7/13;
+			grid-row: 4/7;
+			align-self: end;			
+		}
+	}
+}
 
 //grid dial
 

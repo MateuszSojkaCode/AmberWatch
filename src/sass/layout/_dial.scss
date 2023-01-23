@@ -1,20 +1,19 @@
-.dial{
-    &__text{
-        text-align: center;
-        padding-inline: 3rem;
-    }
-    &__box{
-        margin-top: 2rem;
-        padding: 2rem;
-    }
-    &__img{
-        margin-inline: auto;
-        // width: 10rem;
-        height: 12rem;
-    }
-    @media(min-width: 576px){
-        &__img{
-            height: 15rem;
-        }
-    }
+.dial {
+	&__text {
+		padding-inline: 3rem;
+		text-align: center;
+	}
+	&__box {
+		margin-top: 2rem;
+		padding: 2rem;
+	}
+	&__img {
+		margin-inline: auto;
+		height: 12rem;
+	}
+	@media (min-width: 576px) {
+		&__img {
+			height: 15rem;
+		}
+	}
 }

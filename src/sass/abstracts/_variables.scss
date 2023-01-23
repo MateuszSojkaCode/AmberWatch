@@ -3,41 +3,50 @@
 $font-size-12: 1.2rem;
 $font-size-14: 1.4rem;
 $font-size-16: 1.6rem;
-$font-size-20: 2.0rem;
+$font-size-20: 2rem;
 $font-size-22: 2.2rem;
 $font-size-24: 2.4rem;
 $font-size-32: 3.2rem;
 $font-size-36: 3.6rem;
 $font-size-48: 4.8rem;
-$font-size-60: 6.0rem;
+$font-size-60: 6rem;
 $font-size-72: 7.2rem;
 
 // font family
 
-$title-font: 'Playfair Display SC', serif;
-$main-font: 'Open Sans', sans-serif;
-
+$title-font: "Playfair Display SC", serif;
+$main-font: "Open Sans", sans-serif;
 
 // margin & padding
 
-.section-padding{
-    &__top{
-        padding-top: 4rem;
-        @media(min-width: 768px){
-            padding-top: 8rem;
-        }
-    }
+.section-padding {
+	&__top {
+		padding-top: 4rem;
+		@media (min-width: 768px) {
+			padding-top: 8rem;
+		}
+	}
+}
+.section-padding-small {
+	padding: 4rem 0;
+}
+.section-padding-big {
+	padding: 8rem 0;
 }
 
-.section-padding-small{
-    padding: 4rem 0;
+.marrgin-top-minus-1 {
+	margin-top: -1rem;
 }
-.section-padding-big{
-    padding: 8rem 0;
+
+.margin-bottom-1 {
+	margin-bottom: 1rem;
+	@media (min-width: 768px) {
+		margin-bottom: 4rem;
+	}
 }
-.margin-bottom-1{
-    margin-bottom: 1rem;
-    @media(min-width: 768px){
-        margin-bottom: 4rem;
-    }
+.margin-bottom-2 {
+	margin-bottom: 2rem;
+}
+.margin-bottom-3 {
+	margin-bottom: 3rem;
 }
