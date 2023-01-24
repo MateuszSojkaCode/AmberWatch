@@ -1,5 +1,5 @@
 # AmberWatch
-https://matsoj-code.github.io/AmberWatch/
+https://mateuszsojkacode.github.io/AmberWatch/
 
 I wanted to build website with elegant, luxury personality. I decided that main theme of site will be watches. Technology used in this project are HTML, SASS and JavaScript
 
