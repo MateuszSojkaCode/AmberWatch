@@ -6,5 +6,5 @@ I wanted to build website with elegant, luxury personality. I decided that main 
 This is the first project when I used SASS architecture, when each component, site section and variable has is dedicated folder and file. Must say that at the beggining it was a bit confusing trying to figure it out where which part of site suppose it land. But at the end I had no problem to navigate through all folders and files.
 
 ## features
-*animated cards
-*fully responsive
+* animated cards
+* fully responsive
