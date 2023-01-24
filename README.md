@@ -8,3 +8,6 @@ This is the first project when I used SASS architecture, when each component, si
 ## features
 * animated cards
 * fully responsive
+
+## things to improve
+* functionality can be added to buttons
