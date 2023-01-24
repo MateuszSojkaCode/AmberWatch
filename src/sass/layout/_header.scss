@@ -9,7 +9,7 @@
 	height: 60vh;
     padding: 2rem;
     color: $color-primary;
-	background-image: url(../../../src/img/header_small.jpg);
+	background-image: url(./../../src/img/header_small.jpg);
 	background-position: center;
 	background-size: cover;
     text-transform: uppercase;
@@ -45,7 +45,7 @@
 @media(min-width:768px){
     .header{
         height: 80vh;
-        background-image: url(../../../src/img/header_big.jpg);
+        background-image: url(./../../src/img/header_big.jpg);
         justify-content: center;
         &__text-box{
             display: flex;
