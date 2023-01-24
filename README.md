@@ -12,3 +12,4 @@ This is the first project when I used SASS architecture, when each component, si
 ## things to improve
 * functionality can be added to buttons.'
 
+<img src="https://github.com/MateuszSojkaCode/AmberWatch/blob/master/src/img/AmberWatch-ThumNail.jpg">
