@@ -12,4 +12,6 @@ This is the first project when I used SASS architecture, when each component, si
 ## things to improve
 * functionality can be added to buttons.'
 
-<img src="https://github.com/MateuszSojkaCode/AmberWatch/blob/master/src/img/AM_thumbnail.jpg">
+<div align="center">
+  <img src="https://github.com/MateuszSojkaCode/AmberWatch/blob/master/src/img/AM_thumbnail.jpg" width="60%" align="center">
+</div>
